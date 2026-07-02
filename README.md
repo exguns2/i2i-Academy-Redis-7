@@ -21,7 +21,7 @@ The goal of this project is to implement and demonstrate high-volume caching ope
    ```bash
    docker compose up -d
 
-```
+
 
 2. Compile and execute the native Java framework:
 ```bash
