@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  redis-cache:
+    image: redis:latest
+    container_name: i2i-redis-cache
+    ports:
+      - "6379:6379"
+
+  redisinsight:
+    image: redis/redisinsight:latest
+    container_name: i2i-redisinsight
+    ports:
+      - "5540:5540"
